@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> O.-</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="ptn.png" ></head>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">
+    <p class="dong1"> <b><span id="chudau" > Kiếp</span> này là kiếp trời ban</b>
+        <br class="dong2"><b>Quan tâm để ý mới hỏi han một người</b>    
+          <br class="dong2"><b>Kiếp này là kiếp cho nàng</b>
+          <br class="dong2"><b>Quan tâm để ý mình nàng mà thôi</b>
+    </p>
+    <p class="dong1"> <b> <span id="chudau"> Kiếp</span> này nhiều lúc ham chơi </b>   
+          <br class="dong2"><b>Gặp rồi mới thấy phải chăm sự nghiệp</b>
+          <br class="dong2"><b>Kiếp này mỹ nhân hàng ngàn</b>
+          <br class="dong2"><b>Thơ này huynh viết cho nàng đọc thôi</b>
+      </p>
+        </div>
+    </div>
+    <!-- them html cua hoa sakura-->
+    <div class="khung">
+
+        <div class="tam tamhoa1">
+        <div class="tamhoa">
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        </div>
+    
+        <div class="tam tamhoa2">
+          <div class="tamhoa">
+          <div></div>
+          <div></div>
+          <div></div>
+          </div>
+          </div>
+    
+          <div class="tam tamhoa3">
+            <div class="tamhoa">
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            </div>
+    
+            <div class="tam tamhoa4">
+                <div class="tamhoa">
+                <div></div>
+                <div></div>
+                <div></div>
+                </div>
+                </div>
+    
+                <div class="tam tamhoa5">
+                    <div class="tamhoa">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    </div>
+                    </div>
+    
+                    <div class="tam tamhoa6">
+                        <div class="tamhoa">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
+                        </div>
+    
+                        <div class="tam tamhoa7">
+                            <div class="tamhoa">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            </div>
+                            </div>
+    
+                            <div class="tam tamhoa8">
+                                <div class="tamhoa">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                </div>
+                                </div>
+    
+        </div>
+        <!-- them button-->
+        <button id="soundButton" onclick="toggleMute()">
+            <i id="volumeIcon" class="fas fa-volume-up"></i>
+        </button>
+        <audio id="audio" src="0yeuemthiyeuai_short.MP3" muted autoplay></audio>
+        <script>
+          function toggleMute() {
+                var audio = document.getElementById('audio');
+                var volumeIcon = document.getElementById('volumeIcon');
+        
+                if (audio.muted) {
+                    audio.muted = false;
+                    volumeIcon.classList.remove('fa-volume-mute');
+                    volumeIcon.classList.add('fa-volume-up');
+                } else {
+                    audio.muted = true;
+                    volumeIcon.classList.remove('fa-volume-up');
+                    volumeIcon.classList.add('fa-volume-mute');
+                }
+              }
+        </script>
+</body>
+</html>
